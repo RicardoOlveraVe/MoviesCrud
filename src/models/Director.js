@@ -19,7 +19,7 @@ const Director = sequelize.define('director',{
         allowNull: false
     },
     brithday: {
-        type: DataTypes.DATEONLY,
+        type: DataTypes.STRING,
         allowNull: false
     },
 });

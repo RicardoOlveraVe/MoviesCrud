@@ -19,7 +19,7 @@ const Actor = sequelize.define('actor',{
         allowNull: false
     },
     brithday: {
-        type: DataTypes.DATEONLY,
+        type: DataTypes.STRING,
         allowNull: false
     },
 });
