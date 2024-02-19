@@ -24,4 +24,4 @@ const Director = sequelize.define('director',{
     },
 });
 
-module.exports = Director ;
+module.exports = Director;
